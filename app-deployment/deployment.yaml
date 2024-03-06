@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: racing-game
-        image: dev-game-app:latest
+        image: quay.io/openshifttest/nginx-alpine:latest
         resources:
           limits:
             memory: "128Mi"
