@@ -20,4 +20,3 @@
   - name: debug message
     debug:
       var: pod_list
-      verbosity: 2
